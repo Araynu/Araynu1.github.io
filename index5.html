@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Encuesta sobre Golden Air TV</title>
+        
+    </head>
+
+    <body>
+
+        <div class="container">
+            <h1>Encuesta sobre Golden Air TV</h1>
+            <p>Agradecemos tus comentarios sobre nuestra plataforma de películas y series. Por favor, completa la siguiente encuesta:</p>
+    
+            <form>
+                    
+                <label for="opinión">¿Qué te parece nuestra web de películas y series?</label>
+                <textarea id="opinión" name="opinión" rows="4" required></textarea>
+    
+                <label for="mejoras">¿Qué mejoras sugerirías para nuestra plataforma?</label>
+                <textarea id="mejoras" name="mejoras" rows="4"></textarea>
+    
+                <label for="puntuación">Puntuación (del 1 al 10, siendo 10 la mejor):</label>
+                <input type="number" id="puntuación" name="puntuación" min="1" max="10" required>
+
+                <label for="película-favorita">Selecciona tu película favorita:</label>
+                <select id="película-favorita" name="película-favorita">
+
+                    <option value="pelicula1">Avatar: El Sentido Del Agua</option>
+                    <option value="pelicula2">Cincuenta Sombras de Grey</option>
+                    <option value="pelicula3">Interstellar</option>
+                    <option value="pelicula4">Siete Almas</option>
+                    <option value="pelicula5">Piratas Del Caribe: La Maldición De La Perla Negra</option>
+                    <option value="pelicula6">Oppenheimer</option>
+                    <option value="pelicula7">Barbie</option>
+                    <option value="pelicula8">Saw X</option>
+                    <option value="pelicula9">Mi soledad Tiene Alas</option>
+                    <option value="pelicula10">Meg 2: The Trench</option>
+
+                </select>
+
+                <label for="serie-favorita">Selecciona tu serie favorita:</label>
+                <select id="serie-favorita" name="serie-favorita">
+
+                    <option value="serie1">Rick & Morty</option>
+                    <option value="serie2">Peaky Blinders</option>
+                    <option value="serie3">The Good Doctor</option>
+                    <option value="serie4">La Casa De Papel</option>
+                    <option value="serie5">Élite</option>
+                    <option value="serie6">Big Mouth</option>
+                    <option value="serie7">Lupin</option>
+                    <option value="serie8">Bodies</option>
+                    <option value="serie9">Loki</option>
+                    <option value="serie10">Beckham</option>
+                    
+                </select>
+
+                <label>¿Recomendarías nuestra página?</label>
+                    <div class="opciones">
+                        <div>
+
+                            <input type="radio" id="recomendacion-si" name="recomendacion" value="si">
+                            <label for="recomendacion-si">Sí</label>
+
+                        </div>
+
+                        <div>
+
+                            <input type="radio" id="recomendacion-no" name="recomendacion" value="no">
+                            <label for="recomendacion-no">No</label>
+                            
+                        </div>
+                    </div>
+
+                <br></br>
+    
+                <button type="submit">Enviar Encuesta</button>
+
+            </form>
+        </div>
+
+    </body>
+
+</html>
